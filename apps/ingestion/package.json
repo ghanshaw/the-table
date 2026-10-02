@@ -1,0 +1,15 @@
+{
+  "name": "@the-table/ingestion",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "ingest": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2"
+  },
+  "devDependencies": {
+    "tsx": "^4",
+    "typescript": "^5"
+  }
+}
